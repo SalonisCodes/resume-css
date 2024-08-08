@@ -1,0 +1,156 @@
+body {
+    background-color: #ffecd696;
+    color: #333;
+    font-family: 'Merriweather', serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-style: italic;
+}
+
+a:hover, a:active {
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0F2167;
+}
+
+.navbar {
+    background-color: #0F2167;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #ffffff;
+    color: #0F2167;
+    border-radius: 5px;
+}
+
+.profile-picture {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 10px double #0F2167;
+}
+
+.button {
+    background-color: #ffffff;
+    color: #0F2167;
+    border: 2px solid #0F2167; /* Add a 2px solid border */
+    border-radius: 5px; /* Optional: add rounded corners */
+    padding: 10px 20px; /* Adjust padding as needed */
+    text-align: center;
+    text-decoration: none; /* Remove underline from links */
+    display: inline-block; /* Ensure proper spacing around the button */
+    font-weight: bold; /* Make text bold */
+}
+
+.button:hover {
+    background-color: #0F2167; /* Change background on hover */
+    color: #ffffff; /* Change text color on hover */
+}
+
+.button:hover {
+    background-color: #0f2167;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 960px;   
+}
+
+footer {
+    background-color: #0F2167;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.gap-top {
+    margin-top: 2rem;
+}
+
+.gap-bottom {
+    margin-bottom: 2rem;
+}
+
+.section-header {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #0F2167; /* Adjust color as needed */
+}
+
+.skills-list {
+    padding: 10%;
+    list-style: square;
+}
+
+.skills-list li {
+    padding: 0.5rem 1rem;
+}
+
+.bordered-box {
+    border: 5px solid #0f2167;
+    border-radius: 15px; /* Curved edges */
+    background-color: #ffecd696;
+    padding: 1.5rem;
+    margin: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Space between columns */
+}
+
+.col-lg-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.experience-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.experience-list li  {
+    margin-bottom: 0.5rem;
+    list-style-type: disc;
+}
+
+.education-list {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-list li {
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    max-width: 700px; 
+    margin-bottom: 20px;
+    padding: 4%;
+}
+
+
+.bg-light-gray {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
